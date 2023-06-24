@@ -212,6 +212,15 @@ This example uses following crates from this repo:
 - opentelemetry(tracing)
 - opentelemetry-zpages
 
+## backward-compatibility
+**Tracing**
+
+This example uses following crates from this repo:
+- opentelemetry
+- opentelemetry-sdk
+- opentelemetry-otlp
+- opentelemetry-semantic-conventions
+
 The application is built using `tokio` and `hyper`.
 
 Check this example if you want to understand *how to set up a zpage server to debug tracing issues*.
